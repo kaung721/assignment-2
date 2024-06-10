@@ -1,0 +1,101 @@
+body{
+    margin:0px;
+    background-color:#f8f8f8;
+}
+li,figcaption{
+    font-size: 30px;
+    text-decoration: none;
+}
+a{
+    font-size: 50px;
+    text-decoration: none;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+/** header **/
+header{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    background-color: #FFA500;
+}
+header > div{
+    flex-grow: 1;
+    height: 250px;
+    width: auto;
+}
+header > div > a > img {
+    width: auto;
+    height: 100%;
+}
+header > nav > menu {
+    list-style: none;
+    padding-right: 10px;
+    margin: 0px;
+    display: flex;
+}
+header > nav > menu > li{
+    padding: 0px 50px;
+}
+header > nav > menu > li > a{
+    color: #0e0e0e;
+}
+/** masthead **/
+.lesson-masthead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFA500;
+    height: 100vh;
+}
+/** main content container **/
+.flex-content-container{
+    display: flex;
+}
+main{
+    width: 80%
+}
+
+body > div > main{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    padding-left: 500px;
+    margin: 0;
+}
+aside > article {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.right_img {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.left_img{
+    position: relative;
+    right: 800px;
+    bottom: 725px;
+    margin: 0;
+    padding: 0;
+}
+footer > div{
+    display: flex;
+    align-items: center;
+    padding-left: 500px;
+    margin: 0;
+}
+main > section > div > form > input[type="submit"]{
+    border: solid 2px #103957;
+    background-color: #103957;
+    color: #f8f8f8;
+    padding: 5px 15px;
+}
+
+
+
+
+
